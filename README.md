@@ -20,7 +20,7 @@
    - `hours` is the number of hours per activity
    - `minutes` is the number of minutes per activity
    - `activity` is labeled as `Tipo Actividad`, must be exactly the same as the activity in the dropdown
-   - `description` is labeled as `Descripción Tarea`
+   - `description` is labeled as `Descripción Tarea`, ignored for checking duplicates
 3. Run `python3 main.py`
    Optional arguments:
    - `--headless` to run in headless mode
